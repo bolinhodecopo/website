@@ -1,0 +1,12 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "author": "",
+  "dependencies": {
+    "geddy": "0.8.9"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "0.8.x"
+  }
+}
