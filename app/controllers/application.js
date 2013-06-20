@@ -17,6 +17,13 @@
 */
 
 var Application = function () {
+  this.blog = function (req, resp, params) {
+    this.redirect("http://blog.bolinhodecopo.art.br");
+  };
+
+  this.store = function (req, resp, params) {
+    this.redirect("http://loja.bolinhodecopo.art.br");
+  };
 };
 
 exports.Application = Application;
