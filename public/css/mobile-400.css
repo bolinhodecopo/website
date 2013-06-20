@@ -1,0 +1,15 @@
+#app-header {
+  height: auto;
+}
+
+#app-header .logo {
+  margin: 0 20px;
+  height: auto;
+}
+
+#app-header .logo img {
+  width: 100%;
+  height: auto;
+}
+
+#content #social h1 { float: none; }

@@ -1,0 +1,164 @@
+html, body {
+  background: #efecdb;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Mate', serif;
+  font-size: 1em;
+  color: #444;
+}
+
+a {
+  color: #8a6044;
+}
+
+a:hover,
+a.active {
+  color: #999;
+  text-decoration: none;
+}
+
+header, nav, article {
+  display: block;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Homemade Apple', cursive;
+  font-weight: normal;
+  color: #8a6044;
+}
+
+h1 { font-size: 1.7em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.5em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1.3em; }
+h6 { font-size: 1.2em; }
+
+/* clearfix */
+
+.clearfix { *zoom: 1; }
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+
+.clearfix:after { clear: both; }
+
+/* header */
+
+#app-header {
+  max-width: 990px;
+  height: 350px;
+  margin: 0 auto;
+  padding: 50px 0 0 0;
+} 
+
+#app-header .logo {
+  height: 350px;
+  margin: 0 auto;
+}
+
+#app-header .logo a {
+  display: block;
+}
+
+#app-header .logo img {
+  height: 350px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* nav */
+
+#app-nav {
+  max-width: 990px;
+  margin: 50px auto 0 auto;
+  border-top: 3px dashed #8a6044;
+  border-bottom: 3px dashed #8a6044;
+  font-family: 'Homemade Apple', cursive;
+}
+
+#app-nav ul {
+  margin: 0;
+  padding: 20px 0;
+}
+
+#app-nav .links-list {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#app-nav .links-list li {
+  margin: 0 20px;
+  display: inline;
+}
+
+#app-nav .links-list li a {
+  font-size: 1.3em;
+}
+
+/* content */
+
+#content {
+  max-width: 990px;
+  margin: 0 auto;
+  padding: 0 0 10px 0;
+}
+
+/* store preview */
+
+#store-preview {
+  padding: 50px 0;
+  text-align: center;
+  font-size: 30px;
+}
+
+#store-preview h1 {
+  margin: 0 0 10px 0;
+}
+
+#store-preview .big {
+  margin: 0 0 10px 0;
+}
+
+/* social list */
+
+#content #social {
+  max-width: 990px;
+  margin: 0;
+  padding: 20px 0;
+  border-top: 3px dashed #8a6044;
+  border-bottom: 3px dashed #8a6044;
+  text-align: center;
+}
+
+#content #social h1 {
+  margin: 0;
+  float: left;
+}
+
+#content #social .list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#content #social .icon {
+  margin: 0 10px;
+  float: right;
+}
+
+#content #social .icon a {
+  display: block;
+  text-decoration: none;
+}
+
+#content #social .icon img {
+  width: 40px;
+}
